@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jonathan Lashgari</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/f999c88ffa.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/10.2.1/js/smooth-scroll.min.js" integrity="sha256-q8WNlWH5O1Vyc9ki+nVzdAgCFXZv96jZtIl4D7GIBz8=" crossorigin="anonymous"></script>
+
+    <style>
+      nav .btn-outline-secondary > span {
+        color: #fff;
+      }
+      nav .btn-outline-secondary:hover > span {
+        color: #000;
+      }
+      nav .btn-outline-secondary {
+        color: #fff;
+      }
+      nav .btn-outline-secondary:hover {
+        color: #000;
+      }
+      header a.lead {
+        color: #CFD8DC;
+      }
+      header a.lead:hover {
+        color: #000;
+        background-color: #CFD8DC;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Jonathan Lashgari</a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="internship.html">Internship</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <img class="img-fluid" src="kennesaw.gif">
+        <h1 class="display-3">Kennesaw State University</h1>
+        <h1 class="display-4">Computer Science Internship</h1>
+        <hr>
+        
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid" src="kennesawcampus.png">
+          </div>
+          <div class="col">
+            <p class="lead">Jonathan has been researching the performance advantages of using the GPU in a runtime interpreted language and has been creating a modification for the Java Virtual Machine to take better advantage of the GPU when optimal.</p>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid" src="atinternship.jpg">
+          </div>
+          <div class="col">
+            <p>Through the wonderful internship and research program for magnet students at Wheeler High School, I have been granted the opportunity to go to the Kennesaw State University Marietta Campus in order to research general purpose graphics computing. It's unlike anything I've ever done before, and although challenging, it is an incredible learning experience for me to modify the Java Virtual Machine to utilize the GPU when needed.</p>
+          </div>
+        </div>
+        <br>
+        
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid" src="drlo.png">
+          </div>
+          <div class="col">
+            <p>Through KSU, not only do I have access to many computer science publications like ACM and IEEE, but I also have the opportunity to discuss my work with my mentor, Dr. Lo, who is currently the Department Chair of Computer Science at KSU. He has given me a lot of guidance about memory management and how the Java virtual machine works, which has helped me tremendously in my project.</p>
+          </div>
+        </div>
+        <br>
+
+        <img class="img-fluid" src="conceptmap.png">
+        <br><br>
+        <p>My project at KSU is to create an alternative Java Virtual Machine based on the Java 8 Hotspot JVM that uses OpenCL to run compute operations on the GPU for parallel tasks and on the CPU when synchronization is needed. This will tremendously improve performance because of the highly parallel nature of GPUs, with modern GPUs today having thousands of cores for parallel processing. Unfortunately, many programs today still do not take advantage of this drastic performance opportunity, but with this JVM modification, programs written in many popular languages like Java, Scala, Kotlin, etc. will be able to automatically use the GPU with no work needed from the program author.</p>
+      </div>
+    </section>
+    <footer class="container" style="padding-bottom: 75px">
+      <p class="lead">&copy; 2017 Jonathan Lashgari. All rights reserved.</p>
+      <p>Last updated <small>03/26/2017</small></p>
+      <p><b>Email:</b> <a href="mailto:circuitsoft@outlook.com">circuitsoft@outlook.com</a></p>
+      <p><b>Phone:</b> (404) 805-9400</p>
+      <a href="https://www.linkedin.com/in/jonathan-l-671007134/"><span class="fa fa-linkedin"></span></a>
+    </footer>
+
+    <script>
+	 smoothScroll.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js" integrity="sha256-SVgP0duWZXZFPVIX+woWPFhpnHcxG5IXS6zvZAVoa3Y=" crossorigin="anonymous" data-no-instant></script>
+    <script data-no-instant>InstantClick.init();</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
